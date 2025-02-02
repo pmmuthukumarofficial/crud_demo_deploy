@@ -15,6 +15,6 @@ mongoose.connect('mongodb+srv://pmmuthukumarofficial:<MuThU@9698?>@sample.dk2hn.
 
 
 
-// app.get('/', (req, res)=>{
-//     res.send('server reacted...')
-// })
+app.get('/', (req, res)=>{
+    res.send('server reacted...')
+})
